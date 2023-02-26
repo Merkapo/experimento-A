@@ -1,19 +1,4 @@
 
-
-
-
- // este es otro tipo de condicional
- let typeCard = "tarjeta de credito"
- switch(typeCard){
-   case "tarjeta de credito":
-       console.log("this is a credit card")
-       break
-   case "tarjeta de debito":
-       console.log("this is a debit card")
-       break
-       default:
-           console.log("tarjeta no valida")
- } 
  
  let sueldo = prompt("INGRESE SU SUELDO (en U$D):")
  if (sueldo >= 1000000){
